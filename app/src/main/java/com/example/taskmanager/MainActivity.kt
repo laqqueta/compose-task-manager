@@ -41,7 +41,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun TaskManager(modifier: Modifier = Modifier) {
+fun TaskManager() {
     val image = painterResource(R.drawable.ic_task_completed)
     Column(
         verticalArrangement = Arrangement.Center,
